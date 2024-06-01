@@ -28,7 +28,7 @@ if [ ! -f /var/www/html/wp-config.php ]; then
 
     wp-cli user create --allow-root \
         $WORDPRESS_USER $WORDPRESS_USER_EMAIL \
-        --user_pass=$WORDPRESS_USER_PASSWORD \;
+        --user_pass=$WORDPRESS_USER_PASSWORD;
 fi
 
 echo "You can visit $DOMAIN_NAME in your browser."
